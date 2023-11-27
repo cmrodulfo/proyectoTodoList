@@ -3,7 +3,7 @@ body, h1 , strong{
 
 body {
   line-height: 1;
-  background-image:url("/img/fondoMadera.jpg");
+  background-image:url("./assets/fondoMadera.jpg");
   background-image:cover;
   background-repeat: no-repeat;
   display: flex;

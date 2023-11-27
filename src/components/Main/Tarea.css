@@ -13,7 +13,7 @@
 
 .contenedorListaTareas .listaTareas {
     display:flex;
-    flex flex-direction: center;
+    flex-direction: center;
     width: 100%;
     justify-content: space-around;
     align-items: center;

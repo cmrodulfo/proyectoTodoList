@@ -1,4 +1,9 @@
 
+.contenedorListaTareas{
+    min-width: 100%;
+    margin-top: 2.3em;
+}
+
 .contenedorListaTareas ul {
     padding-left: 0;
     margin: 0;
@@ -7,28 +12,40 @@
 
 .contenedorListaTareas .listaTareas {
     display:flex;
-    width: 100vw;
+    width: 100%;
+    justify-content: space-around;
     align-items: center;
+
+    box-sizing: border-box;
+
+
+   
+
     
 }
+.contenedorBotoner{
+    display: flex;
+    justify-content: center;
 
-.contenedorListaTareas .listaTareas .contenedorCheckbox {
+}
+
+ .contenedorCheckbox {
     margin: 15px;
     
 }
 
-.contenedorListaTareas .listaTareas .contenedorCheckbox .checkbox {
+ .checkbox {
     border-radius: 100%;
 }
 
-.contenedorListaTareas .listaTareas .tarea{
+ .listaTareas .tarea{
     list-style-type: none;
-    width: 30vw;
+
     font-size: 1rem;
     
 }
 
-.contenedorListaTareas .listaTareas .contenedorBotoner button{
+ .contenedorBotoner button{
     width: 50px;
     border: none;
     background-color: transparent;
@@ -39,16 +56,63 @@ input{
     font-size: 1rem
 }
 
-.contenedorListaTareas .contenedorNuevaTarea {
+.contenedorNuevaTarea {
     margin: 15px 0px 15px 51px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 13em;
+
+
 }
 
-.contenedorListaTareas .contenedorNuevaTarea .inputNuevaTarea {
-    width: 30vw;
-}
 
-.contenedorListaTareas .contenedorNuevaTarea .botonAgregar {
+
+ .botonAgregar {
     width: 50px;
     border: none;
     background-color: transparent;
+}
+
+.listaTareas{
+    height: 3.07em;
+    width: 30%;
+}
+.checkLista{
+    display: flex;
+    justify-content: flex-start;
+    
+    align-items: center;
+    min-width: 45em;
+    margin-left: 10em;
+    height: 100%;}
+ul{
+    width: 100%;
+}
+
+@media only screen and (max-width: 1200px){
+
+    .contenedorListaTareas{
+
+        margin-top: 1.5em;
+    }
+
+
+    .checkLista{
+        min-width: 39em;
+        margin-left: 10em;
+
+
+    }
+    
+    .listaTareas{
+        height: 2.9em;
+        width: 30%;
+    }
+
+    .contenedorNuevaTarea{
+
+ margin-top: 0.5em;
+        margin-left: 13em;
+    }
+
 }

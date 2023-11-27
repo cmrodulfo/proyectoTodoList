@@ -84,6 +84,8 @@ function Tarea() {
             <ul >
                 {tareas.map((tarea) => (
                     <div className='listaTareas'>
+                        <div className='checkLista'>
+
                         <div className='contenedorCheckbox'>
 
                             <input
@@ -115,6 +117,7 @@ function Tarea() {
                             }
 
                         </li>
+                        </div>
                         <div className='contenedorBotoner'>
                             {tarea.editar
                                 ?

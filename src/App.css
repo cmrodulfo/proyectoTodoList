@@ -6,6 +6,10 @@ body {
   background-image:url("/img/fondoMadera.jpg");
   background-image:cover;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: center;
+  flex-direction: column;
+  align-content: center;
 }
 ol, ul {
   list-style: none;

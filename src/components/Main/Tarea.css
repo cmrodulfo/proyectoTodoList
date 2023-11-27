@@ -2,6 +2,7 @@
 .contenedorListaTareas{
     min-width: 100%;
     margin-top: 2.3em;
+
 }
 
 .contenedorListaTareas ul {
@@ -12,6 +13,7 @@
 
 .contenedorListaTareas .listaTareas {
     display:flex;
+    flex flex-direction: center;
     width: 100%;
     justify-content: space-around;
     align-items: center;
@@ -41,7 +43,7 @@
  .listaTareas .tarea{
     list-style-type: none;
 
-    font-size: 1rem;
+    font-size: 2rem;
     
 }
 
@@ -93,12 +95,12 @@ ul{
 
     .contenedorListaTareas{
 
-        margin-top: 1.5em;
+        margin-top: 1em;
     }
 
 
     .checkLista{
-        min-width: 39em;
+        min-width: 15em;
         margin-left: 10em;
 
 

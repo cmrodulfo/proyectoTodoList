@@ -1,0 +1,31 @@
+body, h1 , strong{
+  font-family: 'Courier Prime', monospace;}
+
+body {
+  line-height: 1;
+  background-image:url("/img/fondoMadera.jpg");
+  background-image:cover;
+  background-repeat: no-repeat;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.contenedorPrincipal{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}

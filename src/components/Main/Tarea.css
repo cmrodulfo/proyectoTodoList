@@ -1,0 +1,54 @@
+
+.contenedorListaTareas ul {
+    padding-left: 0;
+    margin: 0;
+    
+}
+
+.contenedorListaTareas .listaTareas {
+    display:flex;
+    width: 100vw;
+    align-items: center;
+    
+}
+
+.contenedorListaTareas .listaTareas .contenedorCheckbox {
+    margin: 15px;
+    
+}
+
+.contenedorListaTareas .listaTareas .contenedorCheckbox .checkbox {
+    border-radius: 100%;
+}
+
+.contenedorListaTareas .listaTareas .tarea{
+    list-style-type: none;
+    width: 30vw;
+    font-size: 1rem;
+    
+}
+
+.contenedorListaTareas .listaTareas .contenedorBotoner button{
+    width: 50px;
+    border: none;
+    background-color: transparent;
+
+}
+input{
+    border: none;
+    font-size: 1rem
+}
+
+.contenedorListaTareas .contenedorNuevaTarea {
+    margin: 15px 0px 15px 51px;
+}
+
+.contenedorListaTareas .contenedorNuevaTarea .inputNuevaTarea {
+    width: 30vw;
+}
+
+.contenedorListaTareas .contenedorNuevaTarea .botonAgregar {
+    width: 50px;
+    border: none;
+    background-color: transparent;
+}

@@ -1,0 +1,15 @@
+.contenedorFooter{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 201, 95);
+    height: 6em;
+    width: 100%;
+    opacity: 90%;
+}
+
+h4{
+    color: rgb(134, 43, 13);
+    font-family:'Zeyada', cursive;
+    font-size:30px;
+    text-shadow: pink 02px 02px 06px;
+}
